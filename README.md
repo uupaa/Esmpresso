@@ -25,7 +25,7 @@ The roasted modules are shipped to the world.
 
 ## Drip (import)
 
-Import a roasted module from browser is called Drip.
+Import and use the roasted module. We call this a drip.
 
 The following is a way to dynamically drip.
 
