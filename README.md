@@ -12,12 +12,13 @@ ES Modules base code can be converted to Esmpresso style. We call this a roast.
 1. Setting up GitHub Pages.
     - `Settings` -> `GitHub Pages` -> `Source` -> change to `master branch` and `save`.
 2. Add the `.esm.conf.js` file to the top directory, and specify the path of the entry point to` main`.
-3. Register the module at https://esmpresso.com.
+3. Register the repository at https://esmpresso.com
 
 ```js
 // .esm.conf.js
 export default {
-  main: "index.js"
+  version: "0.0.1", // SemVer
+  main: "index.js", // Entry point
 };
 ```
 

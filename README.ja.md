@@ -12,12 +12,13 @@ ES Modules のコードを Esmpresso スタイルに変換できます。私達�
 1. GitHub Pages の設定を行います。
     - `Settings` -> `GitHub Pages` -> `Source` -> change to `master branch` and `save`
 2. トップディレクトリに `.esm.conf.js` ファイルを追加し、`main` にエントリーポイントのパスを指定します。
-3. モジュールを https://esmpresso.com に登録します。
+3. リポジトリを https://esmpresso.com に登録します。
 
 ```js
 // .esm.conf.js
 export default {
-  main: "index.js"
+  version: "0.0.1", // SemVer
+  main: "index.js", // Entry point
 };
 ```
 
@@ -25,7 +26,7 @@ export default {
 
 ## Drip (import)
 
-ローストされたモジュールをimportし使用します。私達はこれをドリップと呼んでいます。
+ローストされたモジュールを import し使用します。私達はこれをドリップと呼んでいます。
 
 以下は動的にドリップするやり方です。
 
