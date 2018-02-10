@@ -1,4 +1,4 @@
-| [English](README.md) | [Japanise](README.ja.md) |
+| [English](README.md) | [Japanese](README.ja.md) |
 
 # Esmpresso (pronounce as "Espresso")
 
